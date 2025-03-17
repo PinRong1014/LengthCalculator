@@ -45,5 +45,18 @@ namespace LengthCalculator
             txtFt.Text = string.Format("{0:0.##########}", douM * 3.2808399);
             txtYard.Text = string.Format("{0:0.##########}", douM * 1.0936133);
         }
+
+        private void txtKM_KeyUp(object sender, KeyEventArgs e)
+        {
+            double douKM;
+
+            douKM = Convert.ToDouble(txtKM.Text);
+
+            txtCM.Text = string.Format("{0:0.##########}", douKM * 100000);
+            txtM.Text = string.Format("{0:0.##########}", douKM * 1000);
+            txtIn.Text = string.Format("{0:0.##########}", douKM * 39370.0787);
+            txtFt.Text = string.Format("{0:0.##########}", douKM * 3280.8399);
+            txtYard.Text = string.Format("{0:0.##########}", douKM * 1093.6133);
+        }
     }
 }
