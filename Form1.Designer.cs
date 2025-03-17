@@ -72,7 +72,6 @@
             this.btnAllClear.TabIndex = 2;
             this.btnAllClear.Text = "清除";
             this.btnAllClear.UseVisualStyleBackColor = true;
-            this.btnAllClear.Click += new System.EventHandler(this.btnAllClear_Click);
             // 
             // label2
             // 
@@ -90,6 +89,7 @@
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(108, 25);
             this.txtM.TabIndex = 3;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // label3
             // 
