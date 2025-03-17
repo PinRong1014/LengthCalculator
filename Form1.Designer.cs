@@ -125,6 +125,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(108, 25);
             this.txtIn.TabIndex = 7;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label5
             // 
