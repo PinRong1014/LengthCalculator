@@ -143,6 +143,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(108, 25);
             this.txtYard.TabIndex = 9;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label6
             // 
