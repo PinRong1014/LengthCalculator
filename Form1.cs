@@ -76,7 +76,7 @@ namespace LengthCalculator
 
             if (double.TryParse(strInput, out douOutput) == true)
             {
-                caculateAnswer(2, douOutput * 10000); // 事先將公里轉換成公分
+                caculateAnswer(2, douOutput * 100000); // 事先將公里轉換成公分
             }
             else
             {
